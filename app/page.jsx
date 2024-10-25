@@ -1,5 +1,5 @@
 import BgSlider from "@/components/home/BgSlider";
-import Hero from "@/components/home/Hero";
+import Hero from "@/components/home/hero/Hero";
 import Reviews from "@/components/home/Reviews";
 import Steps from "@/components/home/Steps";
 import TryNow from "@/components/home/TryNow";

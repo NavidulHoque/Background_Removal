@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function NavbarLogo({width, height}) {
+export default function NavbarLogo() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={width}
-            height={height}
+            width={224}
+            height={41}
             viewBox="0 0 224 42"
             fill="none"
         >

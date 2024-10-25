@@ -15,11 +15,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={outfit.className}
+        className={`${outfit.className} bg-[#F7FBFF] text-[#353535]`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <div className='w-[80vw] mx-auto'>
+
+          <Navbar />
+          {children}
+          <Footer />
+
+        </div>
+
       </body>
     </html>
   );
